@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>onerror event handler example</title>
+<script type="text/javascript">
+function errorHandler(){
+  alert("Error Ourred!");
+}
+// JavaScript is casesensitive
+// Don't write onerror!
+window.onError = errorHandler;
+</script>
+</head>
+<body>
+<script type="text/javascript">
+  document.write("Hello there");
+</script>
+</body>
+</html>
